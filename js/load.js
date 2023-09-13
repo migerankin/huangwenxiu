@@ -7,7 +7,7 @@ const imgurl = [
   './img/m/m_down.png',
   './img/m/f_left.png',
   './img/m/f_right.png',
-  './img/m/f_up.png',
+  './img/m/f_up.png', 
   './img/m/f_down.png',
   './img/m/bg_p.png',
 ]
