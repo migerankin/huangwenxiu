@@ -1,0 +1,32 @@
+body{
+    background-image: url(../img/m/bg_p.png);
+    background-size: 100%;
+}
+.people{
+    position: fixed;
+    transition: .1s;
+}
+.people img{
+    height: 400px;
+}
+.girl{
+    top: 250px;
+    left: 900px;
+}
+.boy{
+    top: 200px;
+    left: 500px;
+}
+.boy p{
+    color: #3a3a31;
+    font-family: '宋体';
+    font-weight: 600;
+    background-color: #c2bba5;
+    position: absolute;
+    top: 35%;
+    border-radius: 5px;
+    left: 80%;
+    text-align: center;
+    border: #413933 2px solid;
+    display: none;
+}
