@@ -9,16 +9,20 @@
 </head>
 <body>
     <div class="people girl">
-        <img src="./img/m/f_down.png" alt="">
+        <img src="./img/icon/box_close.png" style="position: relative; z-index: 2; transition: 2s ease;">
+        <img src="./img/m/f_down.png" style="position: absolute; left: 50px; top: 20px; z-index: 1; height: 350px; transition: .3s;">
+        <!-- <img src="./img/m/f_down.png" alt=""> -->
     </div>
     <div class="people boy">
         <p id="startF" class="boyp">按F键唱山歌</p>
-        <img src="./img/m/m_down.png" alt="">
+        <img src="./img/icon/box_close.png" style="position: relative; z-index: 2; transition: 2s ease;">
+        <img src="./img/m/m_down.png" style="position: absolute; left: 50px; top: 20px; z-index: 1; height: 350px; transition: .3s;">
+        <!-- <img src="./img/m/m_down.png" alt=""> -->
     </div>
     <div class="Blackhover">
         <div id="progress-bar">
             <p class="progressTitle">资源加载中</p>
-            <p class="progressTitle soManyMins">本次需要加载 2.6mb 左右的资源</p>
+            <p class="progressTitle soManyMins"></p>
             <div id="progress">
                 <p></p>
             </div>
@@ -30,3 +34,4 @@
 <script src="./js/walk.js"></script>
 <audio src="./img/01.mp3" id="zj"></audio>
 <script src="./js/load.js"></script>
+<script src="./js/clickTime.js"></script>

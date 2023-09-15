@@ -8,17 +8,18 @@ body{
 .people{
     position: fixed;
     transition: .1s;
+    cursor: pointer;
 }
 .people img{
-    height: 400px;
+    height: 450px;
 }
 .girl{
-    top: 250px;
-    left: 900px;
+    top: 200px;
+    left: 850px;
 }
 .boy{
     top: 200px;
-    left: 500px;
+    left: 350px;
 }
 .boyp{
     color: #3a3a31;

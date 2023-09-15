@@ -5,6 +5,7 @@ var m_left_num = 500
 var isclose = false
 // console.log(document.getElementsByClassName('boy')[0].style.left);
 
+function startWalk(){
 document.addEventListener("keydown", function (event) {
     m_top_num = parseInt(m_top.replace('px'))
     m_left_num = parseInt(m_left.replace('px'))
@@ -20,25 +21,25 @@ document.addEventListener("keydown", function (event) {
             m_top=parseInt(m_top.replace('px'))-15+'px'
             document.getElementsByClassName('people')[1].style
             .top = m_top
-            $('.people').eq(1).find('img').attr('src',`./img/m/m_up.png`)
+            $('.people').eq(1).find('img').eq(1).attr('src',`./img/m/m_up.png`)
             break;
         case "a":
             m_left=parseInt(m_left.replace('px'))-15+'px'
             document.getElementsByClassName('people')[1].style
             .left = m_left
-            $('.people').eq(1).find('img').attr('src',`./img/m/m_left.png`)
+            $('.people').eq(1).find('img').eq(1).attr('src',`./img/m/m_left.png`)
             break;
         case "d":
             m_left=parseInt(m_left.replace('px'))+15+'px'
             document.getElementsByClassName('people')[1].style
             .left = m_left
-            $('.people').eq(1).find('img').attr('src',`./img/m/m_right.png`)
+            $('.people').eq(1).find('img').eq(1).attr('src',`./img/m/m_right.png`)
             break;
         case "s":
             m_top=parseInt(m_top.replace('px'))+15+'px'
             document.getElementsByClassName('people')[1].style
             .top = m_top
-            $('.people').eq(1).find('img').attr('src',`./img/m/m_down.png`)
+            $('.people').eq(1).find('img').eq(1).attr('src',`./img/m/m_down.png`)
             break;
         case "f":
             if(isclose)
@@ -46,4 +47,4 @@ document.addEventListener("keydown", function (event) {
             startCircle()
             document.getElementById('startF').style.display = 'none'
     }
-});
+});}
